@@ -1,4 +1,6 @@
 import type { Metadata } from 'next';
+import Header from './components/layouts/Header/Header';
+import Footer from './components/layouts/Footer/Footer';
  
 // These styles apply to every route in the application
 import './global.css';
@@ -15,7 +17,13 @@ export default function RootLayout({
   }) {
     return (
       <html lang="en">
-        <body>{children}</body>
+        <body>
+          <Header />
+          <div className="container">
+            {children}
+          </div>
+          <Footer />
+        </body>
       </html>
     );
 }

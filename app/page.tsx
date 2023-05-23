@@ -6,10 +6,9 @@ import SolutionsSection from './components/sections/landing/Solutions'
 export default function Layout() {
   return (
     <>
-        <div className="font-bold">BOLD</div>
         <MainSection />
-        <PartnerSection />
         <SimulateSection />
+        <PartnerSection />
         <SolutionsSection />
     </>
   );

@@ -1,0 +1,52 @@
+.solutionBlock {
+    padding: 0px 27px 0px 0px;
+    gap: 10px;
+    width: 297px;
+
+    &:hover {
+        background: #989898;
+        color: #FFFFFF;
+    }
+
+    .solutionBlock__image {
+        content: '';
+        position: absolute;
+        height: 36px;
+        width: 36px;
+        left: 0;
+        top: 0;
+        background: url('./images/Investing.svg');
+    }
+    
+    .solutionBlock__title {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 44px;
+        color: #000000;
+    }
+    
+    .solutionBlock__description {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #000000;
+    }
+    
+    .solutionBlock__header {
+        display: flex;
+    }
+    
+    .solutionBlock__body {
+        padding-left: 74px;
+        margin-top: 4px;
+        position: relative;
+
+        &:before {
+
+        }
+    }
+}
