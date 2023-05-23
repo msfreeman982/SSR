@@ -7,23 +7,23 @@ import Button from '../../library/Button/Button';
 
 const menuData = [{
     listName: 'General Investment',
-    listPath: '',
+    listPath: '/Investment',
 },
 {
     listName: 'Pension',
-    listPath: '',
+    listPath: '/Pension',
 },
 {
     listName: 'Savings',
-    listPath: '',
+    listPath: '/Savings',
 },
 {
     listName: 'FAQ',
-    listPath: '',
+    listPath: '/FAQ',
 },
 {
     listName: 'About us',
-    listPath: '',
+    listPath: '/AboutUs',
 },
 ]
 
@@ -45,8 +45,8 @@ const Header = () => (
                 <div>
                     <Dropdown />
                 </div>
-                <div>
-                    <Button />
+                <div className="w-[141px]">
+                    <Button title="login" />
                 </div>
             </div>
         </div>

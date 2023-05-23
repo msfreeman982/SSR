@@ -1,4 +1,4 @@
-import './SolutionBlock.scss';
+import './featuresBlock.scss';
 
 type OptionType = {
     title: string;

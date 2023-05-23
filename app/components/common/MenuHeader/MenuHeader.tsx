@@ -1,16 +1,12 @@
 import './menuHeader.scss';
 
-type MenuHeaderType = {
-    data: Array<any>;
-};
-
-const MenuHeader = (props: MenuHeaderType) => (
+const MenuHeader = (props) => (
     <nav>
-        {props.data.map((item) =>{
-            <ul className="menu">
-                <li className="menu__list">{item.listName}</li>
-            </ul>
-        })}
+        <ul className="menu">
+            {props.data.map((item) =>{
+                return <li className="menu__list">{item.listName}</li>
+            })}
+        </ul>
     </nav>
 );
   

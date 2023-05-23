@@ -1,7 +1,9 @@
 .solutionBlock {
+    position: relative;
     padding: 0px 27px 0px 0px;
     gap: 10px;
     width: 297px;
+    margin-bottom: 60px;
 
     &:hover {
         background: #989898;
