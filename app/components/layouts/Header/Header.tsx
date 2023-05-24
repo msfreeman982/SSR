@@ -2,7 +2,7 @@ import './header.scss';
 import Image from 'next/image';
 import Logo from '../../../assets/images/Logo.svg';
 import MenuHeader from '../../../components/common/MenuHeader/MenuHeader';
-import Dropdown from '../../library/Dropdown/Dropdown';
+import LanguagePicker from '../../library/LanguagePicker/LanguagePicker';
 import Button from '../../library/Button/Button';
 
 const menuData = [{
@@ -43,7 +43,7 @@ const Header = () => (
                     <MenuHeader data={menuData} />
                 </div>
                 <div>
-                    <Dropdown />
+                    <LanguagePicker />
                 </div>
                 <div className="w-[141px]">
                     <Button title="login" />

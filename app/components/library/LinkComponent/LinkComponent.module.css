@@ -1,0 +1,35 @@
+.link{
+    padding: 0 20px 20px 20px;
+    width: fit-content;
+    background: #A7A7A7;
+}
+
+.link__title{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #FFFFFF;
+    padding-bottom: 17px;
+}
+
+.link__item{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding-bottom: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.link__item::before{
+    content: "";
+    width: 29px;
+    height: 1px;
+    margin-right: 17px;
+    background: #FFFFFF;
+}

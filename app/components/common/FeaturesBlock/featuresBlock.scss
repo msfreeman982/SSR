@@ -8,6 +8,10 @@
     &:hover {
         background: #989898;
         color: #FFFFFF;
+
+        .solutionBlock__image {
+            background: url('./images/InvestingWhite.svg');
+        }
     }
 
     .solutionBlock__image {
@@ -15,8 +19,8 @@
         position: absolute;
         height: 36px;
         width: 36px;
-        left: 0;
-        top: 0;
+        left: 20px;
+        top: 5px    ;
         background: url('./images/Investing.svg');
     }
     
@@ -27,6 +31,7 @@
         font-size: 32px;
         line-height: 44px;
         color: #000000;
+        padding-left: 74px
     }
     
     .solutionBlock__description {
