@@ -1,18 +1,23 @@
 import Image from 'next/image';
 import phoneImage from '../../../assets/images/Phone.svg';
 import FeaturesBlock from '../../common/FeaturesBlock/FeaturesBlock';
+import Button from '../../library/Button/Button';
 
 const Main = () => (
     <section>
         <div className="grid grid-cols-2">
             <div>
-                <h1 className="mb-[92px]">Investing in you is what we do best</h1>
+                <h1 className="undeline-h1">Investing in you is</h1>
+                <h1 className="mb-[62px] undeline-h1-reverse">what we do best</h1>
                 <div className="grid grid-cols-2">
                     <FeaturesBlock title="Simplicity" description="Invest with confidence, your investments are managed by us" />
                     <FeaturesBlock title="Transparency" description="Access your investments at any time and benefit from one-time fees of 0.60% per year" />
                 </div>
                 <div>
                     <FeaturesBlock title="Flexibility" description="Customize your investments according to your desires, at any time" />
+                </div>
+                <div className="mt-[90px] block">
+                    <Button withArrow title="OPEN AN ACCOUNT" />
                 </div>
             </div>
             <div>

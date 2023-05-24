@@ -19,10 +19,10 @@ const Solutions = () => (
           <h4>Payout plan</h4>
           <p className="text-[#585858] mb-[20px]">To provide a regular income from your capital</p>
           <div className="mb-[15px]">
-            <Button className="mx-auto" title="SELECT" />
+            <Button className="mx-auto" title="SELECT" backgroundColor={undefined} />
           </div>
           <div className="mb-[15px]">
-            <Button className="mx-auto" title="LEARN MORE"  styleButton={{fontColor: '#F6F5F1'}} />
+            <Button className="mx-auto" title="LEARN MORE" styleButton={{ fontColor: "#989898", backgroundColor: "#F6F5F1" }} backgroundColor={undefined} />
           </div>
         </div>
       </div>
@@ -31,10 +31,10 @@ const Solutions = () => (
           <h4>Invest</h4>
           <p className="text-[#585858] mb-[20px]">To invest your capital with complete peace of mind</p>
           <div className="mb-[15px]">
-            <Button className="mx-auto" title="SELECT" />
+            <Button className="mx-auto" title="SELECT" backgroundColor={undefined} />
           </div>
           <div className="mb-[15px]">
-            <Button className="mx-auto" title="LEARN MORE"  styleButton={{fontColor: '#F6F5F1'}} />
+            <Button className="mx-auto" title="LEARN MORE" styleButton={{ fontColor: "#989898", backgroundColor: "#F6F5F1" }} backgroundColor={undefined} />
           </div>
         </div>
         <div>

@@ -1,10 +1,32 @@
 h1 {
+    position: relative;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 64px;
     line-height: 87px;
     color: #000;
+}
+
+.undeline-h1:after {
+    content: '';
+    left: 56px;
+    bottom: -5px;
+    position: absolute;
+    height: 6px;
+    width: 397.04px;
+    background: linear-gradient(90deg, #C8C8C8 0%, rgba(217, 217, 217, 0) 109.8%);
+}
+
+.undeline-h1-reverse:after {
+    content: '';
+    left: 56px;
+    bottom: -5px;
+    position: absolute;
+    height: 6px;
+    width: 397.04px;
+    background: linear-gradient(90deg, #C8C8C8 0%, rgba(217, 217, 217, 0) 109.8%);
+    transform: rotate(180deg);
 }
 
 h2 {

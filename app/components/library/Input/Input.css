@@ -1,0 +1,58 @@
+.container-textarea__field::placeholder,
+.input__field::placeholder {
+    color: #B0B0B0;
+    font-size: 14px;
+}
+
+.container-textarea__label,
+.input__label {
+    font-family: "Roboto", sans-serif;
+}
+
+.container-textarea__field,
+.input__field {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 7px;
+    padding-left: 20px;
+    font-family: "Roboto", sans-serif;
+}
+
+.container-textarea__field:focus,
+.input__field:focus {
+    outline: none;
+}
+
+
+.container-textarea__field {
+    height: 66px;
+    padding-top: 12px;
+}
+
+.input__field  {
+    height: 40px;
+}
+
+.input__info {
+    margin-left: 10px;
+}
+
+.container-textarea__error {
+    color: red;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.input__sublabel {
+    margin-left: 10px;
+    color: var(--gray-6);
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
