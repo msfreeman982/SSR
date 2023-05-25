@@ -43,7 +43,7 @@ const Header = () => (
                     <MenuHeader data={menuData} />
                 </div>
                 <div className="pt-[5px]">
-                    <LanguagePicker />
+                    <LanguagePicker  />
                 </div>
                 <div>
                     <Button title="login" minWidth="141px" />

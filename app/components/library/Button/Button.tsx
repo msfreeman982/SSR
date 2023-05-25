@@ -3,7 +3,7 @@ import React, { MouseEventHandler, CSSProperties } from 'react';
 import arrow from "./img/arrow.svg"
 
 type Props = {
-  backgroundColor: any;
+  backgroundColor?: any;
   title?: string,
   withArrow?: boolean,
   disabled?: boolean,

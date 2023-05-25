@@ -4,8 +4,8 @@ import React, {useState} from "react";
 import styles from "./LanguagePicker.module.css";
 
 type LanguageType = {
-  name: string
-  value: number
+  name?: string
+  value?: number
 }
 
 export const defaultLanguages = [
@@ -24,7 +24,7 @@ export const defaultLanguages = [
 ]
 
 type LanguagePickerProps = {
-  fields: LanguageType[]
+  fields?: LanguageType[]
   onChange?: () => void
 }
 
@@ -57,7 +57,7 @@ const LanguagePicker = (props: LanguagePickerProps) => {
   const onHandleChange = (value: number) => {
     if (value === activeField.value) return;
     
-    setActiveField(props.fields[value])
+    setActiveField(defaultLanguages[value])
     if (props.onChange) props.onChange()
   }
 
