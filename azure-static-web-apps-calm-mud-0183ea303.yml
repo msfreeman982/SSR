@@ -16,17 +16,17 @@ jobs:
   pool:
     vmImage: ubuntu-latest
   variables:
-  - group: Azure-Static-Web-Apps-calm-mud-0183ea303-variable-group
+  - group: Azure-Static-Web-Apps-delightful-meadow-0aaa01c03-variable-group
   steps:
   - checkout: self
     submodules: true
   - task: AzureStaticWebApp@0
     inputs:
-      azure_static_web_apps_api_token: $(AZURE_STATIC_WEB_APPS_API_TOKEN_CALM_MUD_0183EA303)
+      azure_static_web_apps_api_token: $(AZURE_STATIC_WEB_APPS_API_TOKEN_DELIGHTFUL_MEADOW_0AAA01C03)
 ###### Repository/Build Configurations - These values can be configured to match your app requirements. ######
 # For more information regarding Static Web App workflow configurations, please visit: https://aka.ms/swaworkflowconfig
-      app_location: "/app" # App source code path
+      app_location: "/" # App source code path
       api_location: "" # Api source code path - optional
-      output_location: "/out" # Built app content directory - optional
+      output_location: "out" # Built app content directory - optional
 ###### End of Repository/Build Configurations ######
 
