@@ -17,7 +17,7 @@ const Main = () => (
                     <FeaturesBlock title="Flexibility" description="Customize your investments according to your desires, at any time" />
                 </div>
                 <div className="mt-[90px] block">
-                    <Button withArrow title="OPEN AN ACCOUNT" />
+                    <Button title="OPEN AN ACCOUNT" />
                 </div>
             </div>
             <div>
