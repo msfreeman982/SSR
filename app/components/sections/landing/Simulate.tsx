@@ -70,7 +70,9 @@ const Simulate = () => (
           <div className="text-[18px] mb-[20px] text-[#989898]">0 CHF in an optimistic scenario</div>
           <div className="text-[12px] text-[#585858]">*These projections do not constitute a contractual commitment.</div>
           <div className="mt-[181px]">
-            <Button title="OPEN AN ACCOUNT" />
+            <a href={process.env.REACT_APP_REGISERFLOW_URL}>
+              <Button title="OPEN AN ACCOUNT" />
+            </a>
           </div>
         </div>
       </div>
