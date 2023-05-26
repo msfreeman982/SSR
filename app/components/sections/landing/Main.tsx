@@ -17,7 +17,9 @@ const Main = () => (
                     <FeaturesBlock title="Flexibility" description="Customize your investments according to your desires, at any time" />
                 </div>
                 <div className="mt-[90px] block">
-                    <Button title="OPEN AN ACCOUNT" />
+                    <a href={process.env.REACT_APP_REGISERFLOW_URL}>
+                        <Button title="OPEN AN ACCOUNT" />
+                    </a>
                 </div>
             </div>
             <div>
