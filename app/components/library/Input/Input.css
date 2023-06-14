@@ -1,12 +1,12 @@
 .container-textarea__field::placeholder,
 .input__field::placeholder {
-    color: #B0B0B0;
+    color: #b0b0b0;
     font-size: 14px;
 }
 
 .container-textarea__label,
 .input__label {
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container-textarea__field,
@@ -15,7 +15,7 @@
     border-radius: 10px;
     margin-top: 7px;
     padding-left: 20px;
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container-textarea__field:focus,
@@ -23,13 +23,12 @@
     outline: none;
 }
 
-
 .container-textarea__field {
     height: 66px;
     padding-top: 12px;
 }
 
-.input__field  {
+.input__field {
     height: 40px;
 }
 
@@ -53,6 +52,6 @@ input::-webkit-inner-spin-button {
 }
 
 /* Firefox */
-input[type=number] {
+input[type='number'] {
     -moz-appearance: textfield;
 }

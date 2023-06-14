@@ -14,7 +14,7 @@
 
 .toggle__is_on {
     display: flex;
-    align-items: center; 
+    align-items: center;
     justify-content: center;
 
     font-family: 'Roboto', sans-serif;
@@ -25,7 +25,7 @@
     padding: 10px 30px;
     user-select: none;
 
-    color: #FFFFFF;
+    color: #ffffff;
 
     background: #989898;
     border-radius: 9px;
@@ -35,7 +35,7 @@
 
 .toggle__is_off {
     display: flex;
-    align-items: center; 
+    align-items: center;
     justify-content: center;
     font-family: 'Roboto', sans-serif;
     font-style: normal;

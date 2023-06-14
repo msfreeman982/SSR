@@ -1,7 +1,7 @@
 @font-face {
-    font-family: "Xtoniq";
+    font-family: 'Xtoniq';
     font-weight: normal;
-    src: local("openSansBold"), url(../fonts/Xtoniq/XtoniqIcon.ttf) format("opentype");
+    src: local('openSansBold'), url(../fonts/Xtoniq/XtoniqIcon.ttf) format('opentype');
 }
 
-@import "../fonts/Xtoniq/XtoniqIcon.css";
+@import '../fonts/Xtoniq/XtoniqIcon.css';

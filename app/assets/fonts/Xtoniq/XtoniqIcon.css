@@ -1,4 +1,5 @@
-[class^="icon-"], [class*=" icon-"] {
+[class^='icon-'],
+[class*=' icon-'] {
     font-family: 'Xtoniq' !important;
     font-style: normal;
     font-weight: normal;
@@ -8,34 +9,34 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-  
+
 .icon-minusIcon:before {
-    content: "\e900";
+    content: '\e900';
 }
 
 .icon-arrowUp:before {
-    content: "\e901";
+    content: '\e901';
 }
 
 .icon-arrowDown:before {
-    content: "\e902";
+    content: '\e902';
 }
 
 .icon-plusIcon:before {
-    content: "\e903";
+    content: '\e903';
 }
 
 .icon-infoIcon:before {
-    content: "\e904";
+    content: '\e904';
 }
 
 .icon-closeIcon:before {
-    content: "\e905";
+    content: '\e905';
 }
 .icon-arrowLeft:before {
-    content: "\e906";
+    content: '\e906';
 }
 
 .icon-arrowRight:before {
-    content: "\e907";
+    content: '\e907';
 }

@@ -6,17 +6,17 @@
     padding: 14px 0px;
     gap: 10px;
     width: fit-content;
-    
+
     min-width: 250px;
     min-height: 50px;
-    
+
     background: #989898;
     border-radius: 8px;
     border: none;
     cursor: pointer;
 }
 
-.button__text{
+.button__text {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -25,7 +25,7 @@
 
     text-transform: uppercase;
 
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 .button__icon {

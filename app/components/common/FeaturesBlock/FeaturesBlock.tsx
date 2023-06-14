@@ -1,9 +1,9 @@
-import './featuresBlock.scss';
+import './featuresBlock.scss'
 
 type OptionType = {
-    title: string;
-    description: string;
-};
+    title: string
+    description: string
+}
 
 const Solutionblock = (props: OptionType) => (
     <div className="solutionBlock">
@@ -15,6 +15,6 @@ const Solutionblock = (props: OptionType) => (
             <div className="solutionBlock__description">{props.description}</div>
         </div>
     </div>
-);
-  
-export default Solutionblock;
+)
+
+export default Solutionblock
